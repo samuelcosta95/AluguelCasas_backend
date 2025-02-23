@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-_0_a$yl+=d9njiw)g_#-+9m(e7mbe)pzoj3kd8xiyp%mxc%t7=
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['AluguelCasas_backend.onrender.com', 'localhost']
+ALLOWED_HOSTS = ['aluguelcasas-backend.onrender.com', 'localhost']
 
 
 
@@ -63,7 +63,7 @@ REST_FRAMEWORK = {
 
 # CORS (permitir acesso do frontend Laravel)
 CORS_ALLOWED_ORIGINS = [
-    "https://AluguelCasas_frontend.com",
+    "https://aluguelcasas-frontend.com",
     "http://127.0.0.1:8080",
 ]
 
